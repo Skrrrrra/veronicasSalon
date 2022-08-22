@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: inline-flex;
+    background-color: #5a5a5a;
+    width: 1920px;
+    height: 100px;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+.logo{
+    text-decoration: none;
+}
+.navButton{
+    line-height:100px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-family: Pompadur;
+}
+.nav{
+    margin-left: 30px;
+    width: 180px;
+    text-align: center;
+}
+.nav:hover{
+    background-color: #424242;
+}
+
+@font-face {
+    font-family: Pompadur;
+    src:url(/fonts/Casper.ttf);
+}
+
+.record{
+    margin-top: -20px;
+    width: auto;
+    height: 700px;
+    background-image: url("https://cleverbox-crm.com/uploads/news/smt_1596466666.jpg");
+    text-align: center; 
+    background-repeat: no-repeat;
+    background-size:1280px;
+}
+.catalog{
+    display: inline;
+    margin-top: -20px;
+    width: 1920px;
+    height: 800px;
+    background-color: white;
+}
+.products{
+    margin-top: -20px;
+    width: 1920px;
+    height: 800px;
+    background-color: rgb(55, 81, 151);
+}
+.betterViews{
+    margin-top: -20px;
+    width: 1920px;
+    height: 800px;
+    background-color: rgb(13, 26, 61);
+}
+.infoTitle{
+    background-clip: text;
+    color: white;
+    font-size: 50px;
+    font-family: Pompadur;
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    height: 30%;
+    width: 75%;
+    margin: -15% 0 0 -25%;
+    text-shadow: #000 0 0 24px;
+}
+.info{
+    text-shadow: #000 0 0 24px;
+    background-clip: text;
+    color:white;
+    font-size: 30px;
+    font-family: Pompadur;
+    position: absolute;
+    top: 78%;
+    left: 35%;
+    height: 30%;
+    width: 80%;
+    margin: -15% 0 0 -25%;
+}
+.recordButton{
+    font-family: Pompadur;
+    font-size: 30px;
+    margin-top: 530px;
+    border-radius: 40px;
+    width: 300px;
+    border: none;
+    height: 80px;
+    color: white;
+    background-color: #5a5a5a;
+}
+.recordButton:hover{
+    background-color: #424242;
+}
+.blur {
+    background: rgba(54, 44, 44, 0.2); 
+    backdrop-filter: blur(2px); 
+    height: 79.5vh;
+    margin-top: 16px;
+    
+}
+.catalogImage{
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    border: 9px solid #424242;
+}
+.list{
+    font-size: 20px;
+    font-family: Pompadur;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.listTitle{
+    margin-left: -20px;
+    font-size: 30px;
+}
+.catalogElem{
+    display: inline-flex;
+    margin-left: 40px;
+    margin-bottom: 0;
+    margin-bottom: 50px;
+    
+}
+
+.secondSlideTitle{
+    font-family: Pompadur;
+    font-size: 40px;
+    color: black;
+    margin-left: 38%;
+}
+footer{
+    margin-top: 0px;
+    width: 1920px;
+    height: 600px;
+    background-image: url(/images/background.jpg);
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+}
+.blur2{
+
+    background: rgba(54, 44, 44, 0.2); 
+    backdrop-filter: blur(2px); 
+    height: 70vh;
+    margin-top: -5px;
+    
+}
+.info2{
+    text-shadow: #000 0 0 24px;
+    background-clip: text;
+    color:white;
+    font-size: 30px;
+    font-family: Pompadur;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    height: 30%;
+    width: 80%;
+    margin: -15% 0 0 -25%;
+}
+.info3{
+    text-shadow: #000 0 0 24px;
+    background-clip: text;
+    color:white;
+    font-size: 30px;
+    font-family: Pompadur;
+    position: absolute;
+    top: 90%;
+    left: 72%;
+    height: 30%;
+    width: 80%;
+    margin: -15% 0 0 -25%;
+}
+.footerInfoTitle{
+    background-clip: text;
+    color: white;
+    font-size: 50px;
+    font-family: Pompadur;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    height: 30%;
+    width: 75%;
+    margin: -15% 0 0 -25%;
+    text-shadow: #000 0 0 24px;
+}
+
