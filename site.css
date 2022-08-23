@@ -27,7 +27,7 @@ body{
 }
 .nav{
     margin-left: 30px;
-    width: 180px;
+    width:200px;
     text-align: center;
 }
 .nav:hover{
@@ -41,12 +41,11 @@ body{
 
 .record{
     margin-top: -20px;
-    width: auto;
+    width: 1920px;
     height: 700px;
     background-image: url("https://cleverbox-crm.com/uploads/news/smt_1596466666.jpg");
     text-align: center; 
     background-repeat: no-repeat;
-    background-size:1280px;
 }
 .catalog{
     display: inline;
@@ -58,15 +57,19 @@ body{
 .products{
     margin-top: -20px;
     width: 1920px;
-    height: 800px;
-    background-color: rgb(55, 81, 151);
+    height: 400px;
+    background-image: url(/images/cosmetics.jpg);
+    background-repeat: no-repeat;
+    background-size: 1300px;
+    margin-top: 100px;
 }
 .betterViews{
     margin-top: -20px;
     width: 1920px;
     height: 800px;
-    background-color: rgb(13, 26, 61);
+    background-image: url(/images/advantages.jpg);
 }
+
 .infoTitle{
     background-clip: text;
     color: white;
@@ -74,7 +77,7 @@ body{
     font-family: Pompadur;
     position: absolute;
     top: 70%;
-    left: 37%;
+    left: 20%;
     height: 30%;
     width: 75%;
     margin: -15% 0 0 -25%;
@@ -88,21 +91,32 @@ body{
     font-family: Pompadur;
     position: absolute;
     top: 78%;
-    left: 35%;
+    left: 28%;
     height: 30%;
-    width: 80%;
+    width: 60%;
     margin: -15% 0 0 -25%;
 }
 .recordButton{
     font-family: Pompadur;
     font-size: 30px;
-    margin-top: 530px;
     border-radius: 40px;
-    width: 300px;
+    width: 100px;
     border: none;
     height: 80px;
-    color: white;
     background-color: #5a5a5a;
+    position: absolute;
+    top: 98%;
+    left: 48%;
+    height: 30%;
+    width: 20%;
+    height: 8%;
+    margin-top: 20px;
+    text-decoration: none;
+    margin: -15% 0 0 -25%;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 50px;
+    color: white;
 }
 .recordButton:hover{
     background-color: #424242;
@@ -110,7 +124,7 @@ body{
 .blur {
     background: rgba(54, 44, 44, 0.2); 
     backdrop-filter: blur(2px); 
-    height: 79.5vh;
+    height: 700px;
     margin-top: 16px;
     
 }
@@ -130,15 +144,17 @@ body{
 }
 .listTitle{
     margin-left: -20px;
-    font-size: 30px;
+    font-size: 24px;
+    font-weight:bold;
 }
 .catalogElem{
     display: inline-flex;
-    margin-left: 40px;
+    margin-left: 60px;
     margin-bottom: 0;
     margin-bottom: 50px;
     
 }
+
 
 .secondSlideTitle{
     font-family: Pompadur;
@@ -197,10 +213,101 @@ footer{
     font-family: Pompadur;
     position: absolute;
     top: 70%;
-    left: 50%;
+    left: 48%;
     height: 30%;
     width: 75%;
     margin: -15% 0 0 -25%;
     text-shadow: #000 0 0 24px;
 }
+.blur3{
+    background: rgba(54, 44, 44, 0.2); 
+    backdrop-filter: blur(2px); 
+    height: 780px;
+    margin-top: 16px;
+    
+}
+.betterViewsTitle{
+    color: white;
+    font-size: 50px;
+    font-family: Pompadur;
+    text-shadow: #000 0 0 24px;
+    margin-left: 24%;
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    height: 30%;
+    width: 80%;
+    margin: -15% 0 0 -25%;
+}
+.betterViewsLi{
+    font-family: Pompadur;
+    font-size: 25px;
+    color: white;
+    text-shadow: #000 0 0 24px;
+    display: inline-block;
+    margin-top: 200px;
+    margin-left: 60px;
+    width: 62%;
+    list-style-type: square;
+}
+.googleMap{
+    margin-left: 12%;
+}
+.WhereFindUs{
+    background-color: #5a5a5a;
+    width: 1920px;
+    height: 660px;
+}
+.whereFindUsTitle{
+    color: white;
+    font-family: Pompadur;
+    margin-left: 25%;
+    font-size: 50px;
+    text-shadow: #000 0 0 24px;
+
+}
+.textOrderbutton{
+    color: white;
+    font-size: 30px;
+    font-family: Pompadur;
+}
+.orderForm{
+    background-color: #5a5a5a;
+    width: 1920px;
+    height: 880px;
+    font-family: Pompadur;
+    text-shadow: #000 0 0 24px;
+
+}
+.inputBox{
+    margin-left: 430px;
+    width: 400px;
+    height: 40px;
+    font-size: 35px;
+    margin-top: 150px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Pompadur;
+    text-shadow: #000 0 0 24px;
+    color: black;
+}
+.orderTitle{
+    color: white;
+    font-family: Pompadur;
+    margin-left: 11%;
+    font-size: 40px;
+}
+.orderformInline{
+    display: inline-block;
+}
+.productsTitle{
+    font-family: Pompadur;
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    margin-left: 16%;
+    width: 72%;
+    text-shadow: white 0 0 24px;
+}
+
 
